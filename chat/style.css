@@ -1,6 +1,6 @@
 body{
   height:100%;
-overflow:scroll;
+overflow-x:hidden;
 }
 #chat{
   height:100%;
@@ -9,6 +9,7 @@ overflow:scroll;
 }
 #messages{
 overflow:scroll;
+padding-bottom:3rem;
 }
 form{
   position: fixed;
