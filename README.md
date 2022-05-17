@@ -3,6 +3,7 @@
 ## Description 
 Here I made a Islamic Website .
 It builds with a lot of Apis. It includes Quran Site Hadith site Salah site and of course book site.
+And a chat app based on firebase realtime database.
 And a lot of feautrs check it out even your are not a muslim.
 Check it out
 ## Infos
