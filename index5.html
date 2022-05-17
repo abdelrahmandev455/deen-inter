@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="chat/style.css">
+   <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/ios-glyphs/30/000000/ramadan.png">
+  <title>Chat</title>
+</head>
+
+<body>
+  <nav>
+    <img src="https://img.icons8.com/material-outlined/34/000000/chat--v1.png" />
+    <div class="name">
+      <a href="index.html">chat</a>
+    </div>
+  </nav>
+  <div class="loader">
+    Deen
+    <img src="icons.gif" alt="icons.gif">
+  </div>
+  <div id="chat">
+    <div id="messages">
+
+    </div>
+    <form id="send-message">
+      <input id="chat-txt" type="text" /> <button id="chat-btn" type="submit">Submit</button>
+    </form>
+  </div>
+  
+  <div class="namecon">
+    <input id="name" type="text" placeholder="enter your name">
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+  <script src="chat/main.js"></script>
+
+  <script>
+    let loader = document.querySelector(".loader")
+
+    setTimeout(() => {
+      loader.style.display = "none"
+    }, 2000)
+  </script>
+</body>
+
+</html>

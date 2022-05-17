@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  scroll-behavior:smooth;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  overflow-x: hidden;
+  padding: 0.5rem 1rem;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  font-size: 1rem;
+  font-family: 'Reem Kufi', sans-serif;
+  border-bottom: 1px black solid;
+  z-index: 10000;
+  background: white;
+  gap:1rem;
+}
+nav>a{
+  margin-left: auto;
+  margin-right: 1.5rem;
+}
+a>img{
+  width:34px;
+  height: 34px;
+}
+nav>img{
+  width:34px;
+  height: 34px;
+}
+.search {
+  background: url("../images/bg.png");
+  height: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  color:white;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  clip-path: polygon(50% 0%, 100.3% 0%, 100% 43%, 100.3% 86.9%, 68.3% 96.6%, 33.2% 88.1%, 0% 96%, 0% 43%, 0% 0%);
+}
+
+.text {
+  display: flex;
+  width: 100%;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 3rem;
+}
+
+.input {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  width: 100%;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.input>input {
+  position: relative;
+  width: 80%;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.input>img {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  z-index: 10;
+  right: 50px;
+  border-radius: 5px;
+}
+
+.con {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 1rem;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  padding-bottom: 5rem;
+}
+
+.cardn {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 3rem;
+  padding: 0.5rem 0.5rem;
+  border: solid 1px gray;
+  gap: 1rem;
+  border-radius: 5px;
+}
+
+.number {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E9E9E9;
+  border-radius: 5px;
+  transform: rotate(45deg);
+}
+
+.nm {
+  transform: rotate(-45deg);
+  font-weight: 600;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.aya {
+  margin-left: auto;
+  font-size: 12px;
+  color: gray;
+  font-weight: 600;
+}
+
+small {
+  color: gray;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.go>img{
+  width:34px;
+  height: 34px;
+}
+.go{
+  position: fixed;
+  bottom:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: black solid 2px;
+  background: white;
+  gap:1rem;
+  width:100%;
+  padding:0.5rem 0.5rem;
+}
+
+.salah{
+  margin-left: auto;
+  color: black;
+  font-weight: 600;
+}
+
+.time{
+  display: flex;
+  width: 50%;
+  margin:0.5rem auto 0.5rem 0.5rem;
+  flex-direction: column;
+  border-bottom: solid 2px gray;
+  gap: 1rem;
+}
+
+.hejri{
+  font-size: 12px;
+  color: gray;
+  font-weight: 600;
+}
+
+.gototop{
+  width: 2rem;
+  height:2rem;
+  bottom:5rem;
+  right:0.5rem;
+  position: fixed;
+  display: flex;
+  font-weight: 100;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: 'Reem Kufi', sans-serif;
+  background: black;
+  gap:1rem;
+  color: white;
+  z-index: 10000;
+}
+
+a{
+  color:white;
+}
+
+.card>img{
+  height:15rem;
+  width:100%;
+}
+.card{
+  width:80%;
+}
+.card-text{
+  text-overflow: ellipsis;
+  overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+}
+
+.loader{
+  position: fixed;
+  width:100%;
+  height:100%;
+  background: white;
+  color:green;
+  display: flex;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: "Reem kufi",cursive;
+  align-items: center;
+  z-index: 1000000;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loader>img{
+  width:3rem;
+  height: 0.5rem;
+}
