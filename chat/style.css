@@ -1,8 +1,10 @@
 body{
   height:100%;
+overflow:scroll;
 }
 #chat{
   height:100%;
+overflow:scroll;
   width:100%;
 }
 form{
