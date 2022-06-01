@@ -9,7 +9,7 @@ async function fetchsalah() {
   
   console.log(resu);
   
-  con.innerHTML += `
+  con.innerHTML = `
     <div class="cardn">
       <div class="name">
         Fajr 
